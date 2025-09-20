@@ -1,0 +1,20 @@
+{
+  "name": "database-task",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Database CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "start"
+  },
+  "author": "Muhzina",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+       "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "nodemon": "^3.1.10"
+  }
+}
